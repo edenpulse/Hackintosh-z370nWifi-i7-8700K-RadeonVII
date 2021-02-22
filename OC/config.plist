@@ -309,24 +309,6 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,0,0</string>
-				<key>device_type</key>
-				<string>Host bridge</string>
-				<key>model</key>
-				<string>8th Gen Core Processor Host Bridge/DRAM Registers</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,1,0</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor PCIe Controller (x16)</string>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
@@ -338,171 +320,9 @@
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
 				<key>model</key>
-				<string>Vega 20 [Radeon VII]</string>
+				<string>AMD Radeon VII 16 Go</string>
 				<key>shikigva</key>
 				<integer>80</integer>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x1)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,1,0/0,0/0,0/0,1</string>
-				<key>device_type</key>
-				<string>Audio device</string>
-				<key>model</key>
-				<string>Vega 20 HDMI Audio [Radeon VII]</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,20,0</string>
-				<key>device_type</key>
-				<string>USB controller</string>
-				<key>model</key>
-				<string>200 Series/Z370 Chipset Family USB 3.0 xHCI Controller</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x16,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,22,0</string>
-				<key>device_type</key>
-				<string>Communication controller</string>
-				<key>model</key>
-				<string>200 Series PCH CSME HECI #1</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x17,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,23,0</string>
-				<key>device_type</key>
-				<string>SATA controller</string>
-				<key>model</key>
-				<string>200 Series PCH SATA controller [AHCI mode]</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1B,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,27,0</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>200 Series PCH PCI Express Root Port #17</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1B,0x2)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,27,2</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>200 Series PCH PCI Express Root Port #19</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1B,0x4)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,27,4</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>200 Series PCH PCI Express Root Port #21</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1B,0x4)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,27,4/0,0</string>
-				<key>device_type</key>
-				<string>Non-Volatile memory controller</string>
-				<key>model</key>
-				<string>NVMe SSD Controller SM961/PM961</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,28,0</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>200 Series PCH PCI Express Root Port #1</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x5)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,28,5</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>200 Series PCH PCI Express Root Port #6</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x5)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,28,5/0,0</string>
-				<key>device_type</key>
-				<string>Ethernet controller</string>
-				<key>model</key>
-				<string>I211 Gigabit Network Connection</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x6)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,28,6</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>200 Series PCH PCI Express Root Port #7</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x6)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,28,6/0,0</string>
-				<key>device_type</key>
-				<string>Network controller</string>
-				<key>model</key>
-				<string>BCM4360 802.11ac Wireless Network Adapter</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x7)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,28,7</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>200 Series PCH PCI Express Root Port #8</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1D,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,29,0</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>200 Series PCH PCI Express Root Port #9</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,29,0/0,0</string>
-				<key>device_type</key>
-				<string>Non-Volatile memory controller</string>
-				<key>model</key>
-				<string>E12 NVMe Controller</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1F,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,31,0</string>
-				<key>device_type</key>
-				<string>ISA bridge</string>
-				<key>model</key>
-				<string>Z370 Chipset LPC/eSPI Controller</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1F,0x2)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,31,2</string>
-				<key>device_type</key>
-				<string>Memory controller</string>
-				<key>model</key>
-				<string>200 Series/Z370 Chipset Family Power Management Controller</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
@@ -512,24 +332,6 @@
 				</data>
 				<key>layout-id</key>
 				<integer>11</integer>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1F,0x4)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,31,4</string>
-				<key>device_type</key>
-				<string>SMBus</string>
-				<key>model</key>
-				<string>200 Series/Z370 Chipset Family SMBus Controller</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1F,0x6)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,31,6</string>
-				<key>device_type</key>
-				<string>Ethernet controller</string>
-				<key>model</key>
-				<string>Ethernet Connection (2) I219-V</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
@@ -550,16 +352,7 @@
 				AQAAAA==
 				</data>
 				<key>model</key>
-				<string>Intel UHD Graphics 630 (Desktop)</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x8,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,8,0</string>
-				<key>device_type</key>
-				<string>System peripheral</string>
-				<key>model</key>
-				<string>Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th/8th Gen Core Processor Gaussian Mixture Model</string>
+				<string>Intel UHD Graphics 630</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -966,7 +759,7 @@
 			<key>LauncherPath</key>
 			<string>Default</string>
 			<key>PickerAttributes</key>
-			<integer>1</integer>
+			<integer>17</integer>
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
@@ -980,7 +773,7 @@
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>5</integer>
+			<integer>10</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -1281,6 +1074,8 @@
 			<key>DirectGopRendering</key>
 			<false/>
 			<key>ForceResolution</key>
+			<false/>
+			<key>GopPassThrough</key>
 			<false/>
 			<key>IgnoreTextInGraphics</key>
 			<false/>

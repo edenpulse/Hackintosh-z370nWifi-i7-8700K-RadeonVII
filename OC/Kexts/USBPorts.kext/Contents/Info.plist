@@ -297,7 +297,7 @@
 					<key>SS09</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>255</integer>
+						<integer>10</integer>
 						<key>name</key>
 						<string>SS09</string>
 						<key>port</key>
